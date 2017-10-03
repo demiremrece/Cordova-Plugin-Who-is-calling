@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="cordova-plugin-who-is-calling" version="0.0.2" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+  <name>whoiscalling</name> <!-- plugin ismi whoiscalling -->
+  <js-module name="whoiscalling" src="www/whoiscalling.js">
+    <!-- plugine erişmek icin aşagidaki targeti referans olarak kullanacağiz. -->
+    <!-- cordava.plugins.whoiscalling yerine 'WhoIsCalling' diyebiliriz kisaca -->
+    <clobbers target="WhoIsCalling"/>
+  </js-module>
+  <platform name="android">
+    <config-file parent="/*" target="res/xml/config.xml">
+      <feature name="whoiscalling">
+        <!-- Burada whoiscalling.java classina erişmek icin android package adresini belirtmemiz gerekiyor.
+        Androidde '-' iceren bir package olamayacaği icin buralari nokta ile değiştirelim.
+        Ayni şekilde src/android/whoiscalling.java icerisinde de ayni islemi yapmamiz gerekiyor. -->
+        <param name="android-package" value="cordova.plugin.who.is.calling.whoiscalling"/>
+      </feature>
+    </config-file>
+    <config-file parent="/*" target="AndroidManifest.xml">
+        <!-- Android manifest izinlerini buradan tanimliyoruz. Plugin arama bilgileriyle işlem yapacaği icin izin almak gerekiyor. -->
+        <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    </config-file>
+    <source-file src="src/android/whoiscalling.java" target-dir="src/cordova/plugin/who/is/calling/whoiscalling"/>
+  </platform>
+</plugin>

@@ -1,0 +1,25 @@
+{
+  "name": "whoiscalling",
+  "version": "0.0.2",
+  "description": "Bu plugin telefon eventlerini dinler ve çağrı alındığında bilgi verir.",
+  "cordova": {
+    "id": "cordova-plugin-who-is-calling",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/demiremrece/Cordova-Plugin-Who-is-calling.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "Emre Demir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/demiremrece/Cordova-Plugin-Who-is-calling/issues"
+  },
+  "homepage": "https://github.com/demiremrece/Cordova-Plugin-Who-is-calling#readme"
+}

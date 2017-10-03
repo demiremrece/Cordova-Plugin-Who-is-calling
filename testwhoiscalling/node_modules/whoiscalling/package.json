@@ -1,0 +1,53 @@
+{
+  "_from": "whoiscalling",
+  "_id": "whoiscalling@0.0.2",
+  "_inBundle": false,
+  "_integrity": "sha512-uDDCy0Jj5YtkCE61W9mxVHpasjDFVu5ry9XSQS5Bwd13TDYNpmSAJ5Hn9fteqQMSe1s+JF3Xj8UpHyksPk8N/g==",
+  "_location": "/whoiscalling",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "whoiscalling",
+    "name": "whoiscalling",
+    "escapedName": "whoiscalling",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/whoiscalling/-/whoiscalling-0.0.2.tgz",
+  "_shasum": "e082ac381f338c4c1da98c9bc0d990dec0295636",
+  "_spec": "whoiscalling",
+  "_where": "/Users/apple/Documents/projects/Blog Projects/Cordova-Plugin-Who-is-calling/testwhoiscalling/node_modules",
+  "author": {
+    "name": "Emre Demir"
+  },
+  "bugs": {
+    "url": "https://github.com/demiremrece/Cordova-Plugin-Who-is-calling/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-who-is-calling",
+    "platforms": [
+      "android"
+    ]
+  },
+  "deprecated": false,
+  "description": "Bu plugin telefon eventlerini dinler ve çağrı alındığında bilgi verir.",
+  "homepage": "https://github.com/demiremrece/Cordova-Plugin-Who-is-calling#readme",
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "license": "ISC",
+  "name": "whoiscalling",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/demiremrece/Cordova-Plugin-Who-is-calling.git"
+  },
+  "version": "0.0.2"
+}
